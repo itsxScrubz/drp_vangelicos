@@ -8,8 +8,7 @@ local onCooldown = false
 -- Threads --
 ---------------------------
 -- //Police Counter Thread// --
--- Is broken until jobcore is fixed. Might just need to do database query for each player to check job.
--- That might be too heavy tho.
+-- Needs to be tested.
 --[[function policeCounter()
     local copsConnected = 0
     local players = exports['drp_core']:GetPlayers()
