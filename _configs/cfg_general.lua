@@ -4,8 +4,8 @@
 -- //©_Scrubz#0001_© ^_^// --
 Config = {}
 -- Robbery Core Mechanics
-Config.RobberyTimer = 25   -- In Seconds
-Config.CooldownTimer = 32   -- In Seconds
+Config.RobberyTimer = 180   -- In Seconds (Default: 3 mins)
+Config.CooldownTimer = 1800   -- In Seconds (Default: 30 mins)
 Config.PoliceRequired = 0   -- 0 to disable
 Config.UseChatAlert = false   -- Enable to use default chat alerts for police
 Config.UseCustomAlert = false   -- Enable to use your own police alerts
